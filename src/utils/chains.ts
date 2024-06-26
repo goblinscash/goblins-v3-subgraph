@@ -13,6 +13,7 @@ export enum ChainId {
   MAINNET = 1,
   MATIC = 137,
   OPTIMISM = 10,
+  SMARTBCH = 10000,
 }
 
 // subgraph does not support string enums, hence these constants
@@ -25,6 +26,8 @@ const CELO_NETWORK_NAME = 'celo'
 const MAINNET_NETWORK_NAME = 'mainnet'
 const MATIC_NETWORK_NAME = 'matic'
 const OPTIMISM_NETWORK_NAME = 'optimism'
+const SMARTBCH_NETWORK_NAME = 'smartbch-mainnet'
+
 
 // Note: All token and pool addresses should be lowercased!
 export class SubgraphConfig {
@@ -108,7 +111,8 @@ export function getSubgraphConfig(): SubgraphConfig {
       poolsToSkip: [],
       poolMappings: [],
     }
-  } else if (selectedNetwork == AVALANCHE_NETWORK_NAME) {
+  } 
+  else if (selectedNetwork == AVALANCHE_NETWORK_NAME) {
     return {
       factoryAddress: '0x740b1c1de25031C31FF4fC9A62f554A55cdC1baD',
       stablecoinWrappedNativePoolAddress: '0xfae3f424a0a47706811521e3ee268f00cfb5c45e', // WAVAX-USDC 0.05% pool
@@ -137,7 +141,9 @@ export function getSubgraphConfig(): SubgraphConfig {
       poolsToSkip: [],
       poolMappings: [],
     }
-  } else if (selectedNetwork == BASE_NETWORK_NAME) {
+  } 
+  
+  else if (selectedNetwork == BASE_NETWORK_NAME) {
     return {
       factoryAddress: '0x33128a8fC17869897dcE68Ed026d694621f6FDfD',
       stablecoinWrappedNativePoolAddress: '0x4c36388be6f416a29c8d8eee81c771ce6be14b18', // WETH-USDbC 0.05% pool
@@ -173,7 +179,8 @@ export function getSubgraphConfig(): SubgraphConfig {
       poolsToSkip: [],
       poolMappings: [],
     }
-  } else if (selectedNetwork == BSC_NETWORK_NAME) {
+  } 
+  else if (selectedNetwork == BSC_NETWORK_NAME) {
     return {
       factoryAddress: '0xdB1d10011AD0Ff90774D0C6Bb92e5C5c8b4461F7',
       stablecoinWrappedNativePoolAddress: '0x6fe9e9de56356f7edbfcbb29fab7cd69471a4869', // USDC-WBNB 0.3% pool
@@ -193,7 +200,31 @@ export function getSubgraphConfig(): SubgraphConfig {
       poolsToSkip: [],
       poolMappings: [],
     }
-  } else if (selectedNetwork == CELO_NETWORK_NAME) {
+  } 
+
+  else if (selectedNetwork == SMARTBCH_NETWORK_NAME) {
+    return {
+      factoryAddress: '0x08153648C209644a68ED4DC0aC06795F6563D17b',
+      stablecoinWrappedNativePoolAddress: '0xc8EF2c0d978C81E16372209d424B10aa53ECAE01', // USDC-WBNB 0.3% pool
+      stablecoinIsToken0: true,
+      wrappedNativeAddress: '0x3743eC0673453E5009310C727Ba4eaF7b3a1cc04', // WBNB ok
+      minimumNativeLocked: BigDecimal.fromString('100'),
+      stablecoinAddresses: [
+        '0xBc2F884680c95A02cea099dA2F524b366d9028Ba', // USDT
+        // '0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d', // USDC
+      ],
+      whitelistTokens: [
+        '0x3743eC0673453E5009310C727Ba4eaF7b3a1cc04', // WBNB ok
+        '0xBc2F884680c95A02cea099dA2F524b366d9028Ba', // USDT
+        // '0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d', // USDC
+      ],
+      tokenOverrides: [],
+      poolsToSkip: [],
+      poolMappings: [],
+    }
+  } 
+  
+  else if (selectedNetwork == CELO_NETWORK_NAME) {
     return {
       factoryAddress: '0xAfE208a311B21f13EF87E33A90049fC17A7acDEc',
       stablecoinWrappedNativePoolAddress: '0x2d70cbabf4d8e61d5317b62cbe912935fd94e0fe', // CUSD-CELO 0.01% pool
