@@ -1,0 +1,384 @@
+{
+  "data": {
+    "pools": [
+      {
+        "id": "0x05a85e5323163eadfcc76bec139ea370aaab031d",
+        "token0": {
+          "id": "0x3743ec0673453e5009310c727ba4eaf7b3a1cc04",
+          "name": "Wrapped BCH",
+          "symbol": "WBCH",
+          "totalValueLocked": "110.465851078880482064",
+          "totalValueLockedUSD": "0"
+        },
+        "token1": {
+          "id": "0xbc9bd8dde6c5a8e1cbe293356e02f5984693b195",
+          "name": "BlockNG-Peg BCH Token",
+          "symbol": "bcBCH",
+          "totalValueLocked": "106.208666284590915245",
+          "totalValueLockedUSD": "0"
+        },
+        "totalValueLockedUSD": "0"
+      },
+      {
+        "id": "0x1b38f3becdbe0ebf7473e9f6a548aea2a67c373d",
+        "token0": {
+          "id": "0x56381cb87c8990971f3e9d948939e1a95ea113a3",
+          "name": "Goblin",
+          "symbol": "GOB",
+          "totalValueLocked": "1014.861559846",
+          "totalValueLockedUSD": "0"
+        },
+        "token1": {
+          "id": "0x73be9c8edf5e951c9a0762ea2b1de8c8f38b5e91",
+          "name": "TangoToken",
+          "symbol": "TANGO",
+          "totalValueLocked": "0",
+          "totalValueLockedUSD": "0"
+        },
+        "totalValueLockedUSD": "0"
+      },
+      {
+        "id": "0x2f19229617f37abfc990c8f6952bee5c8d4c1797",
+        "token0": {
+          "id": "0x3743ec0673453e5009310c727ba4eaf7b3a1cc04",
+          "name": "Wrapped BCH",
+          "symbol": "WBCH",
+          "totalValueLocked": "110.465851078880482064",
+          "totalValueLockedUSD": "0"
+        },
+        "token1": {
+          "id": "0x56381cb87c8990971f3e9d948939e1a95ea113a3",
+          "name": "Goblin",
+          "symbol": "GOB",
+          "totalValueLocked": "1014.861559846",
+          "totalValueLockedUSD": "0"
+        },
+        "totalValueLockedUSD": "0"
+      },
+      {
+        "id": "0x31b7589e96d6114d324ecc94c3f259d3d6772dd3",
+        "token0": {
+          "id": "0x56381cb87c8990971f3e9d948939e1a95ea113a3",
+          "name": "Goblin",
+          "symbol": "GOB",
+          "totalValueLocked": "1014.861559846",
+          "totalValueLockedUSD": "0"
+        },
+        "token1": {
+          "id": "0xbb2a35cc3e3ddb679fe30a82051633bc822e4191",
+          "name": "BenSwap Bridged USDC Token",
+          "symbol": "bbUSDC",
+          "totalValueLocked": "1089.356479803672249476",
+          "totalValueLockedUSD": "0"
+        },
+        "totalValueLockedUSD": "0"
+      },
+      {
+        "id": "0x465e874a8dfb0a35bc6a1611043f3d1ac879a59e",
+        "token0": {
+          "id": "0xbb2a35cc3e3ddb679fe30a82051633bc822e4191",
+          "name": "BenSwap Bridged USDC Token",
+          "symbol": "bbUSDC",
+          "totalValueLocked": "1089.356479803672249476",
+          "totalValueLockedUSD": "0"
+        },
+        "token1": {
+          "id": "0xbbb3700f33fcb64437dc28a7beb6b21f5cc76fb9",
+          "name": "BenSwap Bridged USDT Token",
+          "symbol": "bbUSDT",
+          "totalValueLocked": "977.262568863475867798",
+          "totalValueLockedUSD": "0"
+        },
+        "totalValueLockedUSD": "0"
+      },
+      {
+        "id": "0x532e1a0117ac273f448d5af5af8aa6336a4374d5",
+        "token0": {
+          "id": "0x56381cb87c8990971f3e9d948939e1a95ea113a3",
+          "name": "Goblin",
+          "symbol": "GOB",
+          "totalValueLocked": "1014.861559846",
+          "totalValueLockedUSD": "0"
+        },
+        "token1": {
+          "id": "0xbc2f884680c95a02cea099da2f524b366d9028ba",
+          "name": "BlockNG-Peg USDT Token",
+          "symbol": "bcUSDT",
+          "totalValueLocked": "12052.771343632615148787",
+          "totalValueLockedUSD": "0"
+        },
+        "totalValueLockedUSD": "0"
+      },
+      {
+        "id": "0x544e355b3deb9f4ae47589095c969ffd36f0cfa5",
+        "token0": {
+          "id": "0x3743ec0673453e5009310c727ba4eaf7b3a1cc04",
+          "name": "Wrapped BCH",
+          "symbol": "WBCH",
+          "totalValueLocked": "110.465851078880482064",
+          "totalValueLockedUSD": "0"
+        },
+        "token1": {
+          "id": "0xbc9bd8dde6c5a8e1cbe293356e02f5984693b195",
+          "name": "BlockNG-Peg BCH Token",
+          "symbol": "bcBCH",
+          "totalValueLocked": "106.208666284590915245",
+          "totalValueLockedUSD": "0"
+        },
+        "totalValueLockedUSD": "0"
+      },
+      {
+        "id": "0x79fee2ad196e0e11aa7391e92ff157315edef2a2",
+        "token0": {
+          "id": "0xbb10b6d11db70f33417b08e0b87042275c933bb9",
+          "name": "BenSwap Bridged Ether",
+          "symbol": "bbETH",
+          "totalValueLocked": "0.003611774216066917",
+          "totalValueLockedUSD": "0"
+        },
+        "token1": {
+          "id": "0xbc9bd8dde6c5a8e1cbe293356e02f5984693b195",
+          "name": "BlockNG-Peg BCH Token",
+          "symbol": "bcBCH",
+          "totalValueLocked": "106.208666284590915245",
+          "totalValueLockedUSD": "0"
+        },
+        "totalValueLockedUSD": "0"
+      },
+      {
+        "id": "0x934f434a226ed5b6c4f7fc9a2dc5dc0467bddee7",
+        "token0": {
+          "id": "0x3743ec0673453e5009310c727ba4eaf7b3a1cc04",
+          "name": "Wrapped BCH",
+          "symbol": "WBCH",
+          "totalValueLocked": "110.465851078880482064",
+          "totalValueLockedUSD": "0"
+        },
+        "token1": {
+          "id": "0xbc2f884680c95a02cea099da2f524b366d9028ba",
+          "name": "BlockNG-Peg USDT Token",
+          "symbol": "bcUSDT",
+          "totalValueLocked": "12052.771343632615148787",
+          "totalValueLockedUSD": "0"
+        },
+        "totalValueLockedUSD": "0"
+      },
+      {
+        "id": "0xa12500cb6bf4b9c881487ed517c62f5b952f782b",
+        "token0": {
+          "id": "0xbbb3700f33fcb64437dc28a7beb6b21f5cc76fb9",
+          "name": "BenSwap Bridged USDT Token",
+          "symbol": "bbUSDT",
+          "totalValueLocked": "977.262568863475867798",
+          "totalValueLockedUSD": "0"
+        },
+        "token1": {
+          "id": "0xbc2f884680c95a02cea099da2f524b366d9028ba",
+          "name": "BlockNG-Peg USDT Token",
+          "symbol": "bcUSDT",
+          "totalValueLocked": "12052.771343632615148787",
+          "totalValueLockedUSD": "0"
+        },
+        "totalValueLockedUSD": "0"
+      },
+      {
+        "id": "0xa75201028fa4252cafbd52745d9bc5995f3f91e3",
+        "token0": {
+          "id": "0x3743ec0673453e5009310c727ba4eaf7b3a1cc04",
+          "name": "Wrapped BCH",
+          "symbol": "WBCH",
+          "totalValueLocked": "110.465851078880482064",
+          "totalValueLockedUSD": "0"
+        },
+        "token1": {
+          "id": "0xbc9bd8dde6c5a8e1cbe293356e02f5984693b195",
+          "name": "BlockNG-Peg BCH Token",
+          "symbol": "bcBCH",
+          "totalValueLocked": "106.208666284590915245",
+          "totalValueLockedUSD": "0"
+        },
+        "totalValueLockedUSD": "0"
+      },
+      {
+        "id": "0xa81e8cdf957448d7fc2cd420b37ddf272cabf379",
+        "token0": {
+          "id": "0xbc2f884680c95a02cea099da2f524b366d9028ba",
+          "name": "BlockNG-Peg USDT Token",
+          "symbol": "bcUSDT",
+          "totalValueLocked": "12052.771343632615148787",
+          "totalValueLockedUSD": "0"
+        },
+        "token1": {
+          "id": "0xbc9bd8dde6c5a8e1cbe293356e02f5984693b195",
+          "name": "BlockNG-Peg BCH Token",
+          "symbol": "bcBCH",
+          "totalValueLocked": "106.208666284590915245",
+          "totalValueLockedUSD": "0"
+        },
+        "totalValueLockedUSD": "0"
+      },
+      {
+        "id": "0xc8ef2c0d978c81e16372209d424b10aa53ecae01",
+        "token0": {
+          "id": "0xbc2f884680c95a02cea099da2f524b366d9028ba",
+          "name": "BlockNG-Peg USDT Token",
+          "symbol": "bcUSDT",
+          "totalValueLocked": "12052.771343632615148787",
+          "totalValueLockedUSD": "0"
+        },
+        "token1": {
+          "id": "0xbc9bd8dde6c5a8e1cbe293356e02f5984693b195",
+          "name": "BlockNG-Peg BCH Token",
+          "symbol": "bcBCH",
+          "totalValueLocked": "106.208666284590915245",
+          "totalValueLockedUSD": "0"
+        },
+        "totalValueLockedUSD": "0"
+      },
+      {
+        "id": "0xc988b549b80ca84bbbf1eb607b7a159d8ad06bb8",
+        "token0": {
+          "id": "0x56381cb87c8990971f3e9d948939e1a95ea113a3",
+          "name": "Goblin",
+          "symbol": "GOB",
+          "totalValueLocked": "1014.861559846",
+          "totalValueLockedUSD": "0"
+        },
+        "token1": {
+          "id": "0xbb10b6d11db70f33417b08e0b87042275c933bb9",
+          "name": "BenSwap Bridged Ether",
+          "symbol": "bbETH",
+          "totalValueLocked": "0.003611774216066917",
+          "totalValueLockedUSD": "0"
+        },
+        "totalValueLockedUSD": "0"
+      },
+      {
+        "id": "0xcaafc27b21ac97ae4478066942cbf6510d5fa446",
+        "token0": {
+          "id": "0xbc2f884680c95a02cea099da2f524b366d9028ba",
+          "name": "BlockNG-Peg USDT Token",
+          "symbol": "bcUSDT",
+          "totalValueLocked": "12052.771343632615148787",
+          "totalValueLockedUSD": "0"
+        },
+        "token1": {
+          "id": "0xbc9bd8dde6c5a8e1cbe293356e02f5984693b195",
+          "name": "BlockNG-Peg BCH Token",
+          "symbol": "bcBCH",
+          "totalValueLocked": "106.208666284590915245",
+          "totalValueLockedUSD": "0"
+        },
+        "totalValueLockedUSD": "0"
+      },
+      {
+        "id": "0xdbe5beacee7eb36301c1ffc5dfc451324ba0dad1",
+        "token0": {
+          "id": "0x3743ec0673453e5009310c727ba4eaf7b3a1cc04",
+          "name": "Wrapped BCH",
+          "symbol": "WBCH",
+          "totalValueLocked": "110.465851078880482064",
+          "totalValueLockedUSD": "0"
+        },
+        "token1": {
+          "id": "0xbc2f884680c95a02cea099da2f524b366d9028ba",
+          "name": "BlockNG-Peg USDT Token",
+          "symbol": "bcUSDT",
+          "totalValueLocked": "12052.771343632615148787",
+          "totalValueLockedUSD": "0"
+        },
+        "totalValueLockedUSD": "0"
+      },
+      {
+        "id": "0xe77377da6141b313b3397e7564f8bc65beb7bc58",
+        "token0": {
+          "id": "0x56381cb87c8990971f3e9d948939e1a95ea113a3",
+          "name": "Goblin",
+          "symbol": "GOB",
+          "totalValueLocked": "1014.861559846",
+          "totalValueLockedUSD": "0"
+        },
+        "token1": {
+          "id": "0xbc9bd8dde6c5a8e1cbe293356e02f5984693b195",
+          "name": "BlockNG-Peg BCH Token",
+          "symbol": "bcBCH",
+          "totalValueLocked": "106.208666284590915245",
+          "totalValueLockedUSD": "0"
+        },
+        "totalValueLockedUSD": "0"
+      },
+      {
+        "id": "0xef0f3b75456d00f2d128b6b0185461f2bfe7a760",
+        "token0": {
+          "id": "0x56381cb87c8990971f3e9d948939e1a95ea113a3",
+          "name": "Goblin",
+          "symbol": "GOB",
+          "totalValueLocked": "1014.861559846",
+          "totalValueLockedUSD": "0"
+        },
+        "token1": {
+          "id": "0xbbb3700f33fcb64437dc28a7beb6b21f5cc76fb9",
+          "name": "BenSwap Bridged USDT Token",
+          "symbol": "bbUSDT",
+          "totalValueLocked": "977.262568863475867798",
+          "totalValueLockedUSD": "0"
+        },
+        "totalValueLockedUSD": "0"
+      },
+      {
+        "id": "0xf3f364dc638a0bad60acbde77374c0501e53193b",
+        "token0": {
+          "id": "0x3743ec0673453e5009310c727ba4eaf7b3a1cc04",
+          "name": "Wrapped BCH",
+          "symbol": "WBCH",
+          "totalValueLocked": "110.465851078880482064",
+          "totalValueLockedUSD": "0"
+        },
+        "token1": {
+          "id": "0x56381cb87c8990971f3e9d948939e1a95ea113a3",
+          "name": "Goblin",
+          "symbol": "GOB",
+          "totalValueLocked": "1014.861559846",
+          "totalValueLockedUSD": "0"
+        },
+        "totalValueLockedUSD": "0"
+      },
+      {
+        "id": "0xf4b0c99a922f3849bc77f1430f399cf4671e5cfa",
+        "token0": {
+          "id": "0xbb10b6d11db70f33417b08e0b87042275c933bb9",
+          "name": "BenSwap Bridged Ether",
+          "symbol": "bbETH",
+          "totalValueLocked": "0.003611774216066917",
+          "totalValueLockedUSD": "0"
+        },
+        "token1": {
+          "id": "0xbc2f884680c95a02cea099da2f524b366d9028ba",
+          "name": "BlockNG-Peg USDT Token",
+          "symbol": "bcUSDT",
+          "totalValueLocked": "12052.771343632615148787",
+          "totalValueLockedUSD": "0"
+        },
+        "totalValueLockedUSD": "0"
+      },
+      {
+        "id": "0xfd4bc04802aa32070eb5b61725e9b9c5890e5aaa",
+        "token0": {
+          "id": "0xbb2a35cc3e3ddb679fe30a82051633bc822e4191",
+          "name": "BenSwap Bridged USDC Token",
+          "symbol": "bbUSDC",
+          "totalValueLocked": "1089.356479803672249476",
+          "totalValueLockedUSD": "0"
+        },
+        "token1": {
+          "id": "0xbc2f884680c95a02cea099da2f524b366d9028ba",
+          "name": "BlockNG-Peg USDT Token",
+          "symbol": "bcUSDT",
+          "totalValueLocked": "12052.771343632615148787",
+          "totalValueLockedUSD": "0"
+        },
+        "totalValueLockedUSD": "0"
+      }
+    ]
+  }
+}
