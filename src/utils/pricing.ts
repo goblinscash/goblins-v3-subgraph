@@ -20,7 +20,6 @@ export const WHITELIST_TOKENS: string[] = [
   '0xbb2a35cc3e3ddb679fe30a82051633bc822e4191', // bbUSDC
   '0xbbb3700f33fcb64437dc28a7beb6b21f5cc76fb9', // bbUSDT
   '0xbc2f884680c95a02cea099da2f524b366d9028ba', // bcUSDT
-  '0xbc9bd8dde6c5a8e1cbe293356e02f5984693b195', // bcBCH
   '0xbb10b6d11db70f33417b08e0b87042275c933bb9', // bbETH
 ]
 
