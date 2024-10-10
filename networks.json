@@ -55,7 +55,7 @@
   },
   "smartbch-mainnet": {
     "Factory": {
-      "address": "0x08153648C209644a68ED4DC0aC06795F6563D17b",
+      "address": "0x08153648c209644a68ed4dc0ac06795f6563d17b",
       "startBlock": 14169895
     }
   }

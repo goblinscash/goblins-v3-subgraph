@@ -8,7 +8,7 @@ import { ONE_BD, ZERO_BD, ZERO_BI } from './constants'
 // export const USDC_WETH_03_POOL = '0x8ad599c3a0ff1de082011efddc58f1908eb6e6d8'
 export const WETH_ADDRESS = '0x3743ec0673453e5009310c727ba4eaf7b3a1cc04'
 export const USDC_WETH_03_POOL = '0x934f434a226ed5b6c4f7fc9a2dc5dc0467bddee7'
-export const STABLECOIN_IS_TOKEN0 = true
+export const STABLECOIN_IS_TOKEN0 = false
 
 // token where amounts should contribute to tracked volume and liquidity
 // usually tokens that many tokens are paired with s
@@ -27,7 +27,7 @@ export const STABLE_COINS: string[] = [
   '0xbc2f884680c95a02cea099da2f524b366d9028ba',
 ]
 
-export const MINIMUM_ETH_LOCKED = BigDecimal.fromString('60')
+export const MINIMUM_ETH_LOCKED = BigDecimal.fromString('0.1')
 
 const Q192 = BigInt.fromI32(2).pow(192 as u8)
 export function sqrtPriceX96ToTokenPrices(sqrtPriceX96: BigInt, token0: Token, token1: Token): BigDecimal[] {

@@ -204,17 +204,16 @@ export function getSubgraphConfig(): SubgraphConfig {
 
   else if (selectedNetwork == SMARTBCH_NETWORK_NAME) {
     return {
-      factoryAddress: '0x08153648C209644a68ED4DC0aC06795F6563D17b',
+      factoryAddress: '0x08153648c209644a68ed4dc0ac06795f6563d17b',
       stablecoinWrappedNativePoolAddress: '0x934f434a226ed5b6c4f7fc9a2dc5dc0467bddee7', // USDC-WBNB 0.3% pool
       stablecoinIsToken0: false,
       wrappedNativeAddress: '0x3743ec0673453e5009310c727ba4eaf7b3a1cc04', // WBNB ok
-      minimumNativeLocked: BigDecimal.fromString('1'),
+      minimumNativeLocked: BigDecimal.fromString('0.1'),
       stablecoinAddresses: [
         '0xbc2f884680c95a02cea099da2f524b366d9028ba', // USDT
-        // '0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d', // USDC
       ],
       whitelistTokens: [
-        '0x3743eC0673453E5009310C727Ba4eaF7b3a1cc04', // WBNB ok
+        '0x3743ec0673453e5009310c727ba4eaf7b3a1cc04', // WBNB ok
         '0xbc9bd8dde6c5a8e1cbe293356e02f5984693b195', // bcBCH
         '0x56381cb87c8990971f3e9d948939e1a95ea113a3', // GOB
         '0x73be9c8edf5e951c9a0762ea2b1de8c8f38b5e91', // TANGO
