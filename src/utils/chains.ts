@@ -205,7 +205,7 @@ export function getSubgraphConfig(): SubgraphConfig {
   else if (selectedNetwork == SMARTBCH_NETWORK_NAME) {
     return {
       factoryAddress: '0x08153648c209644a68ed4dc0ac06795f6563d17b',
-      stablecoinWrappedNativePoolAddress: '0x934f434a226ed5b6c4f7fc9a2dc5dc0467bddee7', // USDC-WBNB 0.3% pool
+      stablecoinWrappedNativePoolAddress: '0xdbe5beacee7eb36301c1ffc5dfc451324ba0dad1', // USDC-WBNB 0.3% pool
       stablecoinIsToken0: false,
       wrappedNativeAddress: '0x3743ec0673453e5009310c727ba4eaf7b3a1cc04', // WBNB ok
       minimumNativeLocked: BigDecimal.fromString('0.1'),

@@ -7,7 +7,7 @@ import { ONE_BD, ZERO_BD, ZERO_BI } from './constants'
 // export const WETH_ADDRESS = '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2'
 // export const USDC_WETH_03_POOL = '0x8ad599c3a0ff1de082011efddc58f1908eb6e6d8'
 export const WETH_ADDRESS = '0x3743ec0673453e5009310c727ba4eaf7b3a1cc04'
-export const USDC_WETH_03_POOL = '0x934f434a226ed5b6c4f7fc9a2dc5dc0467bddee7'
+export const USDC_WETH_03_POOL = '0xdbe5beacee7eb36301c1ffc5dfc451324ba0dad1'
 export const STABLECOIN_IS_TOKEN0 = false
 
 // token where amounts should contribute to tracked volume and liquidity
