@@ -21,13 +21,22 @@ export const WHITELIST_TOKENS: string[] = [
   '0xbbb3700f33fcb64437dc28a7beb6b21f5cc76fb9', // bbUSDT
   '0xbc2f884680c95a02cea099da2f524b366d9028ba', // bcUSDT
   '0xbb10b6d11db70f33417b08e0b87042275c933bb9', // bbETH
+  '0x0df6a7169132265bb4f2b0fac0a37b26ea6f93fc', // mog
+  '0x21ba72ff5b25add1dc3d42cab987f1c4e0466814', // shiba
+  '0x617599b1177d56d130da5fd5cf896e3f186eb6f1', // spx
+  '0x6c6b3e0f1a7b3513c55e1f288c99d53441990613', // floki
+  '0x85689be665562c06aa052e0e2a2422b286d30c44', // bitcoin
+  '0x8cf81850aa9d5a4e3df180afbaf0d2093a3f3379', // pepe
+  '0x9ca6f10d19cbda52bbd615f7e1f1821386abe3d1', // doge
+  '0xc993af7fa109e3dd17347c7ce612a5ed848f4b74', // aero
+  '0xbc7b858b5694d485ad17c89675649ce44de21bea', // bcbnb
 ]
 
 export const STABLE_COINS: string[] = [
   '0xbc2f884680c95a02cea099da2f524b366d9028ba',
 ]
 
-export const MINIMUM_ETH_LOCKED = BigDecimal.fromString('0.1')
+export const MINIMUM_ETH_LOCKED = BigDecimal.fromString('1')
 
 const Q192 = BigInt.fromI32(2).pow(192 as u8)
 export function sqrtPriceX96ToTokenPrices(sqrtPriceX96: BigInt, token0: Token, token1: Token): BigDecimal[] {
